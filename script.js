@@ -38,7 +38,7 @@ async function searchCountry(countryName) {
 
                 borderContainer.innerHTML += `
                     <div>
-                        <img src="${borderCountry.flags.svg}">
+                        <img src="${borderCountry.flags.svg}" width="100" height="60">
                         <p>${borderCountry.name.common}</p>
                     </div>
                 `;
